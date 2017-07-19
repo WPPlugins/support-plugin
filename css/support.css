@@ -1,0 +1,77 @@
+div.ticket {
+	padding:15px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    border:1px solid #ccc;
+	margin-top:20px;
+	padding-bottom: 30px;
+	display: table;
+	width:500px;
+	max-width:500px;
+}
+
+div.ticket table{
+	padding-bottom: 10px;
+	width:500px;
+}
+
+.widefat thead tr th, .widefat tfoot tr th, h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, .find-box-head {
+	font-size: 15px;
+	height: 35px;
+	max-width: 150px;
+}
+
+.widefat td{
+	padding: 15px 0 15px 0;
+}
+
+div.ticket table td:first-child{
+
+	width: 80px;
+}
+
+pre {
+	font-family: Helvetica;
+	color: #666;
+	width: 400px;
+	white-space: pre-wrap;       /* css-3 */
+ 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ 	white-space: -pre-wrap;      /* Opera 4-6 */
+ 	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;   
+}
+
+.widefat td:first-child{
+	padding: 15px 0 15px 10px;
+}
+
+input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"]{
+	padding: 10px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+	height:35px;
+}
+
+#new_ticket {
+	padding: 30px 0 30px 0;
+}
+
+#new_ticket tr {
+	height:45px;
+}
+
+#ticket_overview {
+	padding-top:30px;
+}
+
+#ticket_overview tr{
+	height: 25px;
+}
+
+.wrap a{
+	color: #464646;
+}
